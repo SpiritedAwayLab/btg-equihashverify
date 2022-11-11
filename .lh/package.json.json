@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1668166972640,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1668167136694,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n {\r\n   \"name\": \"equihashverify\",\r\n-  \"version\": \"0.0.02\",\r\n+  \"version\": \"0.0.11\",\r\n   \"description\": \"function to check whether an Equihash solution is valid\",\r\n   \"main\": \"equihashverify\",\r\n   \"scripts\": {\r\n     \"install\": \"env V=1 node-gyp rebuild\",\r\n"
                 }
             ],
             "date": 1668166972640,
