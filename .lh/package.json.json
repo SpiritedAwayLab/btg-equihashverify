@@ -1,0 +1,18 @@
+{
+    "sourceFile": "package.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1668166972640,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1668166972640,
+            "name": "Commit-0",
+            "content": "{\r\n  \"name\": \"equihashverify\",\r\n  \"version\": \"0.0.02\",\r\n  \"description\": \"function to check whether an Equihash solution is valid\",\r\n  \"main\": \"equihashverify\",\r\n  \"scripts\": {\r\n    \"install\": \"env V=1 node-gyp rebuild\",\r\n    \"test\": \"mocha\"\r\n  },\r\n  \"repository\": {\r\n    \"type\": \"git\",\r\n    \"url\": \"https://github.com/ZencashOfficial/equihashverify\"\r\n  },\r\n  \"keywords\": [\r\n    \"zencash\"\r\n  ],\r\n  \"author\": \"Joseph Nicholas R. Alcantara\",\r\n  \"contributors\": [\r\n    \"Alberto Garoffolo\",\r\n    \"cronic\"\r\n  ],\r\n  \"license\": \"MIT\",\r\n  \"bugs\": {\r\n    \"url\": \"https://github.com/ZencashOfficial/equihashverify/issues\"\r\n  },\r\n  \"homepage\": \"https://github.com/ZencashOfficial/equihashverify\",\r\n  \"dependencies\": {\r\n    \"bindings\": \"*\",\r\n    \"libsodium\": \"^0.7.3\",\r\n    \"nan\": \"*\",\r\n    \"node-gyp\": \"*\"\r\n  },\r\n  \"engines\": {\r\n    \"node\": \">=0.12\"\r\n  },\r\n  \"devDependencies\": {\r\n    \"mocha\": \"^5.0.4\"\r\n  }\r\n}\r\n"
+        }
+    ]
+}
